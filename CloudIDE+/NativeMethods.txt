@@ -1,0 +1,6 @@
+NCCALCSIZE_PARAMS
+AdjustWindowRectEx
+GetWindowLongPtr
+SetLastError
+SetWindowLong
+SetWindowLongPtr

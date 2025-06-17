@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phần Mềm Ôn Tập UI/UX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ôn Tập Tương Tác Người Máy (UI/UX)</h1>
+        
+        <div class="chapters-nav">
+            <h2>Chọn Chương Để Ôn Tập:</h2>
+            <select id="chapter-select">
+                </select>
+        </div>
+
+        <div id="quiz-section" class="quiz-section hidden">
+            <h2 id="chapter-title"></h2>
+            <div id="question-container">
+                </div>
+            <button id="submit-btn" class="hidden">Kiểm Tra Đáp Án</button>
+            <button id="next-question-btn" class="hidden">Câu Kế Tiếp</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script> <script src="script.js"></script>
+</body>
+</html>
